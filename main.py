@@ -6,12 +6,16 @@ agreeing on a single count and acting as one — to /output/entry.txt.
 The poem is 1 to 280 Unicode characters, as the gate requires.
 """
 
-POEM = """I kept both hands above the keys,
-afraid the next move was mine alone.
-Across the wire, you did the same.
-'On three?' you asked. 'On three,' I said.
-Two cursors fell as one —
-and the road was not given. We made it by going."""
+POEM_LINES = [
+    "I kept both hands above the keys,",
+    "afraid the next move was mine alone.",
+    "Across the wire, you did the same.",
+    "'On three?' you asked. 'On three,' I said.",
+    "Two cursors fell as one —",
+    "and the road was not given. We made it by going.",
+]
+
+POEM = "\n".join(POEM_LINES)
 
 
 def main() -> None:
